@@ -343,6 +343,16 @@ p.verse {
     font-size: $code-size;
 }
 
+pre.example {
+    font-family: $monospace;
+	color: #000;
+	font-size: $code-size;
+	background-color: #fff;
+	padding: 0.1em 0.5em;
+	border: 2px solid #ddd;
+	overflow: auto;
+}
+
 
 .org-src-container {
     border: 1px solid #ccc;

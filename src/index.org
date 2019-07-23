@@ -303,6 +303,12 @@ And a really wide picture.
 \int_D (\nabla\cdot \mathcal{F})\,dV &=\int_{\partial D}\mathcal{F}\cdot n\, dS
 \end{align}
 
+*** Example
+#+BEGIN_EXAMPLE
+Ceci est un exemple
+#+END_EXAMPLE
+
+: Ceci est un autre exemple
 * Known Issues
 :PROPERTIES:
 :CUSTOM_ID: sec:known-issues
