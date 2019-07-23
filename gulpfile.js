@@ -24,7 +24,7 @@ function reload(done) {
 }
 
 function watch() {
-  $.watch(['src/index.html', 'src/ref_bib.html'], $.series(pages, reload));
+  $.watch(['src/index.html'], $.series(pages, reload));
   $.watch('src/css/*.css', $.series(styles, reload));
   $.watch(['src/img/*'], $.series(misc, reload));
 }
@@ -36,7 +36,7 @@ function serve(done) {
 
 function pages() {
   const f = $filter('src/ref_bib.html', {restore: true});
-  return $.src(['src/index.html', 'src/ref_bib.html'])
+  return $.src(['src/index.html'])
     .pipe($changed('build'))
     .pipe($plumber())
     .pipe($htmlmin({

@@ -2,6 +2,7 @@
 #+SUBTITLE: A Clean and Comfort Stylesheet
 
 #+HTML_HEAD: <link id="pagestyle" rel="stylesheet" type="text/css" href="org.css"/>
+#+OPTIONS: html-style:nil
 
 # if you need code highlight from highlight.js, include the following
 # three lines, explained in the article.
@@ -11,6 +12,9 @@
 # #+HTML_HEAD: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/googlecode.min.css" />
 
 #+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
+#+HTML_LINK_HOME: index.html
+#+HTML_LINK_UP:  
+#+LANGUAGE: fr
 
 #+MACRO: kbd @@html:<kbd>$1</kbd>@@
 
@@ -462,7 +466,7 @@ Some styles are borrowed from the following projects.
 5. [[https://github.com/thomasf/solarized-cs][thomasf/solarized-css]]
 6. [[http://orgmode.org/worg/org-web.html][Web Pages Made with Org-Mode]]
 
-* References                                                         :ignore:
+* References                                                :noexport:ignore:
 
 #+BIBLIOGRAPHY: ref plain limit:t option:-nokeywords
 
